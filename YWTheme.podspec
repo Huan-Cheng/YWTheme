@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                    = "BloodSugarModule"
+  s.name                    = "YWTheme"
   s.version                 = "1.0.0"
   s.summary                 = "主题管理"
   s.homepage                = "https://github.com/Huan-Cheng/YWTheme"
