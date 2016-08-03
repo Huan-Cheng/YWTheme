@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary                 = "主题管理"
   s.homepage                = "https://github.com/Huan-Cheng/YWTheme"
   s.license                 = { :type => "MIT", :file => 'LICENSE.md' }
-  s.author                  = { “环诚” => “weigong1989@126.com" }
+  s.author                  = { "环诚" => "weigong1989@126.com" }
   s.platform                = :ios, "7.0"
   s.source                  = { :git => "https://github.com/Huan-Cheng/YWTheme.git", :tag => s.version, :submodules => true}
   s.frameworks              = 'UIKit'
