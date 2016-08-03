@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                    = "BloodSugarModule"
-  s.version                 = “1.0.0”
-  s.summary                 = “主题管理”
+  s.version                 = "1.0.0"
+  s.summary                 = "主题管理"
   s.homepage                = "https://github.com/Huan-Cheng/YWTheme"
   s.license                 = { :type => "MIT", :file => 'LICENSE.md' }
   s.author                  = { “环诚” => “weigong1989@126.com" }
