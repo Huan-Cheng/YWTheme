@@ -10,6 +10,15 @@
 		85B9DB5F1D518FAF00FAF5ED /* YWTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B9DB5E1D518FAF00FAF5ED /* YWTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85B9DB661D518FAF00FAF5ED /* YWTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B9DB5B1D518FAF00FAF5ED /* YWTheme.framework */; };
 		85B9DB6B1D518FAF00FAF5ED /* YWThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9DB6A1D518FAF00FAF5ED /* YWThemeTests.m */; };
+		85B9DB7C1D5199EE00FAF5ED /* YWThemeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B9DB761D5199EE00FAF5ED /* YWThemeButton.h */; };
+		85B9DB7D1D5199EE00FAF5ED /* YWThemeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9DB771D5199EE00FAF5ED /* YWThemeButton.m */; };
+		85B9DB7E1D5199EE00FAF5ED /* YWThemeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B9DB781D5199EE00FAF5ED /* YWThemeImageView.h */; };
+		85B9DB7F1D5199EE00FAF5ED /* YWThemeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9DB791D5199EE00FAF5ED /* YWThemeImageView.m */; };
+		85B9DB801D5199EE00FAF5ED /* YWThemeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B9DB7A1D5199EE00FAF5ED /* YWThemeLabel.h */; };
+		85B9DB811D5199EE00FAF5ED /* YWThemeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9DB7B1D5199EE00FAF5ED /* YWThemeLabel.m */; };
+		85B9DB851D519A4300FAF5ED /* YWTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9DB821D519A4300FAF5ED /* YWTheme.m */; };
+		85B9DB861D519A4300FAF5ED /* YWThemeUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B9DB831D519A4300FAF5ED /* YWThemeUIFactory.h */; };
+		85B9DB871D519A4300FAF5ED /* YWThemeUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9DB841D519A4300FAF5ED /* YWThemeUIFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		85B9DB651D518FAF00FAF5ED /* YWThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B9DB6A1D518FAF00FAF5ED /* YWThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWThemeTests.m; sourceTree = "<group>"; };
 		85B9DB6C1D518FAF00FAF5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B9DB761D5199EE00FAF5ED /* YWThemeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWThemeButton.h; sourceTree = "<group>"; };
+		85B9DB771D5199EE00FAF5ED /* YWThemeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWThemeButton.m; sourceTree = "<group>"; };
+		85B9DB781D5199EE00FAF5ED /* YWThemeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWThemeImageView.h; sourceTree = "<group>"; };
+		85B9DB791D5199EE00FAF5ED /* YWThemeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWThemeImageView.m; sourceTree = "<group>"; };
+		85B9DB7A1D5199EE00FAF5ED /* YWThemeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWThemeLabel.h; sourceTree = "<group>"; };
+		85B9DB7B1D5199EE00FAF5ED /* YWThemeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWThemeLabel.m; sourceTree = "<group>"; };
+		85B9DB821D519A4300FAF5ED /* YWTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTheme.m; sourceTree = "<group>"; };
+		85B9DB831D519A4300FAF5ED /* YWThemeUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWThemeUIFactory.h; sourceTree = "<group>"; };
+		85B9DB841D519A4300FAF5ED /* YWThemeUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWThemeUIFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +89,12 @@
 		85B9DB5D1D518FAF00FAF5ED /* YWTheme */ = {
 			isa = PBXGroup;
 			children = (
-				85B9DB5E1D518FAF00FAF5ED /* YWTheme.h */,
 				85B9DB601D518FAF00FAF5ED /* Info.plist */,
+				85B9DB751D5199EE00FAF5ED /* ThemeModul */,
+				85B9DB5E1D518FAF00FAF5ED /* YWTheme.h */,
+				85B9DB821D519A4300FAF5ED /* YWTheme.m */,
+				85B9DB831D519A4300FAF5ED /* YWThemeUIFactory.h */,
+				85B9DB841D519A4300FAF5ED /* YWThemeUIFactory.m */,
 			);
 			path = YWTheme;
 			sourceTree = "<group>";
@@ -86,6 +108,19 @@
 			path = YWThemeTests;
 			sourceTree = "<group>";
 		};
+		85B9DB751D5199EE00FAF5ED /* ThemeModul */ = {
+			isa = PBXGroup;
+			children = (
+				85B9DB761D5199EE00FAF5ED /* YWThemeButton.h */,
+				85B9DB771D5199EE00FAF5ED /* YWThemeButton.m */,
+				85B9DB781D5199EE00FAF5ED /* YWThemeImageView.h */,
+				85B9DB791D5199EE00FAF5ED /* YWThemeImageView.m */,
+				85B9DB7A1D5199EE00FAF5ED /* YWThemeLabel.h */,
+				85B9DB7B1D5199EE00FAF5ED /* YWThemeLabel.m */,
+			);
+			path = ThemeModul;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +128,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B9DB7E1D5199EE00FAF5ED /* YWThemeImageView.h in Headers */,
+				85B9DB7C1D5199EE00FAF5ED /* YWThemeButton.h in Headers */,
+				85B9DB861D519A4300FAF5ED /* YWThemeUIFactory.h in Headers */,
 				85B9DB5F1D518FAF00FAF5ED /* YWTheme.h in Headers */,
+				85B9DB801D5199EE00FAF5ED /* YWThemeLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B9DB7F1D5199EE00FAF5ED /* YWThemeImageView.m in Sources */,
+				85B9DB7D1D5199EE00FAF5ED /* YWThemeButton.m in Sources */,
+				85B9DB871D519A4300FAF5ED /* YWThemeUIFactory.m in Sources */,
+				85B9DB811D5199EE00FAF5ED /* YWThemeLabel.m in Sources */,
+				85B9DB851D519A4300FAF5ED /* YWTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +420,7 @@
 				85B9DB711D518FAF00FAF5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85B9DB721D518FAF00FAF5ED /* Build configuration list for PBXNativeTarget "YWThemeTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +429,7 @@
 				85B9DB741D518FAF00FAF5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
