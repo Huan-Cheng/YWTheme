@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source                  = { :git => "https://github.com/Huan-Cheng/YWTheme.git", :tag => s.version, :submodules => true}
   s.frameworks              = 'UIKit'
   s.requires_arc            = true
-  s.source_files            = 'YWTheme/**/*.{h,m}’
-  s.public_header_files     = ‘YWTheme/**/*.h’
+  s.source_files            = 'YWTheme/**/*.{h,m}'
+  s.public_header_files     = 'YWTheme/**/*.h'
 end
 
