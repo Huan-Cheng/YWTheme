@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.source_files            = 'YWTheme/**/*.{h,m}’
   s.public_header_files     = ‘YWTheme/**/*.h’
 
-  s.resources               = ['YWTheme/**/*.{plist,png,cer,html,otf,xib,storyboard,js,bundle}', 'BloodSugarModule/**/*.xcassets']
-  s.resource_bundle         = { 'YWTheme' => ['YWTheme/**/*.lproj'] }
+ # s.resources               = ['YWTheme/**/*.{plist,png,cer,html,otf,xib,storyboard,js,bundle}', 'BloodSugarModule/**/*.xcassets']
+ # s.resource_bundle         = { 'YWTheme' => ['YWTheme/**/*.lproj'] }
   s.exclude_files           = '**/Info.plist'
 
-  s.dependency              'ThemeModul'
+ # s.dependency              'ThemeModul'
 
 end
 
